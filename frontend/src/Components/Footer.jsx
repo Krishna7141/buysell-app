@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='max-w-[1280px] mx-auto'>
         {/* <p className='absolute left-0 bottom-2 text-[5rem] select-none'>Krishna Vamshi Kusuma</p> */}
         <div className='flex justify-normal items-center gap-10 flex-col md:flex-row md:justify-between pt-20 pb-16 px-10'>
-          <p className='font-normal text-md'>© KrishnaVamshiKusuma@2023.</p>
+          <p className='font-normal text-md'>© KrishnaVamsi.</p>
           <p className='text-3xl md:text-4xl'>🎯</p>
           <div className='flex gap-x-2 items-center'>
             <Link className='hover:text-[#1E40AF]' to='https://www.linkedin.com/in/krishna-chelluboina/' target='_blank'><AiFillLinkedin size={40}/></Link>
