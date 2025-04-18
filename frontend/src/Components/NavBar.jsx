@@ -23,7 +23,7 @@ const NavBar = () => {
           <div className='flex items-center gap-10'>
             <Link to={'/'}><img src={Logo} alt='logo' className='h-14'/></Link>
             <Link className='hidden md:flex items-center gap-1 border border-black px-3 p-2 rounded-lg' to={'/'}><IoMdHome/><p className='hidden md:block'>Home</p></Link>
-            <Link className='border rounded-lg px-3 p-2 bg-[#082F66] text-white hover:bg-[#1E40AF] text-md font-medium' to={'https://www.google.com'} target='_blank'>About Me</Link>
+            <Link className='border rounded-lg px-3 p-2 bg-[#082F66] text-white hover:bg-[#1E40AF] text-md font-medium' to={'https://krishnavamsi-portfolio.vercel.app/'} target='_blank'>About Me</Link>
           </div>
           {
             !token
